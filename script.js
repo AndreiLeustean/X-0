@@ -33,9 +33,9 @@ function updateScores() {
 
 function updateUsersRound() {
     if (xOr0 % 2 === 0) {
-        document.getElementById('text4').textContent = "Este rândul jucătorului X";
+        document.getElementById('text4').textContent = "It's player X's turn";
     } else {
-        document.getElementById('text4').textContent = "Este rândul jucătorului 0";
+        document.getElementById('text4').textContent = "It's player 0's turn";
     }
 }
 
